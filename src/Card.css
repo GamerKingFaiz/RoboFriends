@@ -1,0 +1,13 @@
+.minW {
+    min-width: 320px;
+  }
+  
+  #info {
+    margin-bottom: 20px;
+  }
+  
+  #cardHolder {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }

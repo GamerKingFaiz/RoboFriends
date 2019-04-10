@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+h1 {
+  font-family: Orbitron;
+  color: #0ccac4;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+#searchBox:focus {
+    outline: none;
+  }
+
+/* Removing the default searchbox decorations */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
